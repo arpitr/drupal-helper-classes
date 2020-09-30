@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\globalcms_utility;
+namespace Drupal\helper_utility;
 
 use Drupal\Core\Entity\EntityTypeManager;
 use Drupal\Core\Link;
@@ -18,11 +18,11 @@ use Drupal\video_embed_field\Plugin\video_embed_field\Provider\Vimeo;
 use Drupal\video_embed_field\Plugin\video_embed_field\Provider\YouTube;
 
 /**
- * Class GlobalCMSServices.
+ * Class HelperUtility.
  *
- * @package Drupal\globalcms_utility
+ * @package Drupal\helper_utility
  */
-class GlobalCMSServices {
+class HelperUtility {
 
   /**
    * Entity Type Manager.
